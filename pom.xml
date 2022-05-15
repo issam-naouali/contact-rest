@@ -11,6 +11,12 @@
 	<groupId>com.iteam</groupId>
 	<artifactId>TP-Contact-Rest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<distributionManagement>
+   <snapshotRepository>
+      <id>maven-central-repository</id>
+      <url>http://192.168.126.140:8081/repository/maven-central-repository//</url>
+   </snapshotRepository>
+</distributionManagement>
 	<name>TP-Contact-Rest</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
